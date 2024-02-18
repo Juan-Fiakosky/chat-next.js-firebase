@@ -1,0 +1,44 @@
+.container-registro {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	max-width: 400px;
+	height: 350px;
+	margin: 0;
+	padding: 20px;
+	border: 1px solid rgb(138, 137, 137);
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	background: #f5f2f2;
+	justify-content: space-around;
+}
+
+.container-registro input {
+	width: 80%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.container-registro button {
+	width: 60%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.container-registro button:hover {
+	background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+	.container-registro {
+		width: 90%;
+	}
+}
