@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReduxProvider from "../store";
 import Login from "./components/login/Login.jsx";
 import Chat from "./components/chat/Chat.jsx";
-import Registro from "./components/registro/Registro.jsx"
+import Registro from "./components/registro/Registro.jsx";
 
 const Home = () => {
 	return (
